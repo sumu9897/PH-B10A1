@@ -15,7 +15,7 @@
             <div class="title">"In the near future, I hope to become a<br>Developer."</div>
             <div class="description">Passionate and skilled aspiring Developer with a strong foundation in software quality assurance and programming, eager to leverage technical expertise and innovative problem-solving abilities to create impactful and efficient software solutions.</div>
             <div>
-                <button class="btn">Get Started</button>
+                <button class="btn" id="footerButton">Connect with me</button>
             </div>
             
         </div>
@@ -69,7 +69,7 @@
         </div>
         <div class="target">
             <div class="title2">My Current Target</div>
-            <div class="discription2"></div>
+            <div class="discription2">My current targets are mastering HTML to effectively structure and present web content, leveraging CSS for sophisticated, responsive, and visually appealing designs, and utilizing JavaScript to create dynamic, interactive, and user-friendly web experiences.</div>
             <div class="cards">
                 <div class="card1">
                     <img src="./assets/html.png" alt="">
@@ -94,25 +94,39 @@
 
         <div class="support">
             <div class="support-frame">
-                <div class="support-title"></div>
-                <div class="support-description"></div>
+                <div class="support-title">I need Support</div>
+                <div class="support-description">I need support to enhance my skills as a web developer. Your guidance will help me improve my knowledge and expertise in the field.</div>
+
                 <div class="feedback">
-                    <div class="suggestion"></div>
-                    <div class="submit"></div>
+                    <input type="text" placeholder="Suggest me any feedback for me">
+                    <button>Submit</button>
                 </div>
             </div>
         </div>
         
     </main>
-    <footer>
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-content">&copy; 2024 Mohamamd Sumon. All rights reserved.
+            </div>
+            
+        
         <div class="social-icons">
             <ul>
                 <li><a href="https://www.facebook.com/mohammad.sumon001"><img src="./assets/facebook.png" alt=""></a></li>
-                <li></li>
-                <li></li>
+                <li><a href="https://github.com/sumu9897"><img src="./assets/github.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/md-sumon9897/"><img src="./assets/linkedin-icon 1.png" alt=""></a></li>
             </ul>
         </div>
+    </div>
     </footer>
+
+    <script>
+        document.getElementById("footerButton").addEventListener("click", function() {
+            document.getElementById("footer").scrollIntoView();
+        });
+        </script>
+        
     
 </body>
 </html>
