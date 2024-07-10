@@ -141,13 +141,73 @@
     width: 1140px;
     height: 775px;
 }
-iframe{
+.video{
+    max-width: 1140px;
+    max-height: 614px;
     margin: 0 auto;
     box-sizing: border-box;
-    position: absolute;
-
-    left: 50%;
-    transform: translateX(-50%);
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+}
+frame{
+    border-radius: 16px;
+}
+
+.target{
+    width: 1140px;
+    height: 460px;
+}
+
+
+
+.cards{
+    display: flex;
+}
+
+.card1, .card2, .card3{
+
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    
+    margin: 0px 24px;
+    gap: 24px;
+}
+
+.card1{
+    border-radius: 16x;
+    background: linear-gradient(90.00deg, rgb(236, 113, 113),rgba(255, 255, 255, 0) 100%);
+}
+.card2{
+    background: linear-gradient(90.00deg, hsl(0, 76%, 68%),rgba(255, 255, 255, 0) 100%);
+}
+.card3{
+    background: linear-gradient(90.00deg, rgb(236, 113, 113),rgba(255, 255, 255, 0) 100%);
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.card-learn{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    text-decoration-line: underline;
+}
+
+.support{
+    background-image: url('./assets/handshake.jpg');
+    max-width: 1140px;
+    height: 313px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
